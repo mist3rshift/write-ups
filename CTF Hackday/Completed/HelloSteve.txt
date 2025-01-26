@@ -1,0 +1,5 @@
+You need to use NBTexplorer and rename one of the others level to level.dat
+Then copy and paste the entire folder in the save folder of minecraft.
+Then load the minecraft world.
+When in the world, type this command : /data get block -351 -38 146
+You will find the flag
