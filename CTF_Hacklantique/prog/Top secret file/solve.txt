@@ -1,0 +1,1 @@
+python cat_recursive.py | xargs cat

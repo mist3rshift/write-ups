@@ -1,0 +1,9 @@
+Avant le décollage de la mission Pionnier, vous devez récupérer un fichier hautement confidentiel. 
+Je vous demande de rester discret lors de votre recherche, nul ne doit être mis au courant.
+
+Cependant nous rencontrons un problème de taille. 
+Le nom de nos répertoires ont tous été changés après avoir été dupliqués lors de l'attaque. 
+Vous devez donc retrouver ledit fichier contenant un code confidentiel.
+Bonne chance !
+
+Votre superviseur X.

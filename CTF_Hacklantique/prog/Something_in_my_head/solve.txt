@@ -1,0 +1,5 @@
+if final_value > 10: changer en if final_value > 10**20:
+On obtient 
+=oQfLFDWzIGcwoUM1N0ePVUQTREWLZVVNtkU
+cela ressembl à une base64 mais inversé
+on inverse et décode en base 64 et bim flag !
